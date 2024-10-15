@@ -1,0 +1,31 @@
+NOTES 
+
+Data Processing of large data files 
+using JQ and PowerShell (because yes I have a windozzee system)
+
+
+this is particular to the Game Changers  data set  for Year  2024 ONLY 
+does not mean this will apply to other years but for this process 
+this is what I choose to do 
+
+
+Step ONE 
+process the VAL large data sets 
+you can use a sampling by copying some of the VAL files on a different folder 
+or process all of them , it does take some time so be aware of but
+the end result is decent , we took 50gig worth of data and we flatten it out to 
+300 megs 
+
+- valfilter.ps1
+- valfilterA.jq
+
+
+the ps1 is our PowerShell script and the valfilterA.jq is our filter criteria on what we want to extract 
+from the VAL data sets , it is pretty straight forward and it does not deal with very deep nested structure 
+only what I think it is needed to process the VAL and events that I consider relevant for AWS BedRock 
+
+
+
+
+
+
