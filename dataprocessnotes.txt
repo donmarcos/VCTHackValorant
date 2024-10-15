@@ -1,5 +1,9 @@
 NOTES 
 
+*** IMPORTANT !!!!!!
+For windows PowerShell make sure your JQ version is 1.6
+
+
 Data Processing of large data files 
 using JQ and PowerShell (because yes I have a windozzee system)
 
