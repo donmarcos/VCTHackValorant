@@ -6,6 +6,10 @@ For windows PowerShell make sure your JQ version is 1.6
 
 Data Processing of large data files 
 using JQ and PowerShell (because yes I have a windozzee system)
+make sure you start with a small subset of data so you can test 
+the capabilities of these scripts, probably 10 VAL files max should do the trick 
+Game Changers for 2024 contains over 400 val files 
+
 
 
 this is particular to the Game Changers  data set  for Year  2024 ONLY 
@@ -22,7 +26,6 @@ the end result is decent , we took 50gig worth of data and we flatten it out to
 
 - valfilter.ps1
 - valfilterA.jq
-
 
 the ps1 is our PowerShell script and the valfilterA.jq is our filter criteria on what we want to extract 
 from the VAL data sets , it is pretty straight forward and it does not deal with very deep nested structure 
