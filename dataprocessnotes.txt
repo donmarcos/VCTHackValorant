@@ -44,6 +44,15 @@ so please use a sampling first before you try anything beyond 100megs in size
 *same as C but adding CalculateCovariance 
 
 
+Step THREE 
+
+take the metrics output file and convert that JSON structure into a more suitable 
+"text chunk" file for LLM to consume - Python script 
+
+- jsontotextA.py
+
+
+
 
 
 
