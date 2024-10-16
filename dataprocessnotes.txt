@@ -40,6 +40,9 @@ so please use a sampling first before you try anything beyond 100megs in size
 
 - metricsC.ps1
 
+- metricsD.ps1 
+*same as C but adding CalculateCovariance 
+
 
 
 
